@@ -1,6 +1,6 @@
 module github.com/paketo-buildpacks/yarn/retrieval
 
-go 1.19
+go 1.22.0
 
 // This is required because of a breaking change in a newer version
 replace github.com/ekzhu/minhash-lsh => github.com/ekzhu/minhash-lsh v0.0.0-20171225071031-5c06ee8586a1
@@ -9,7 +9,7 @@ require (
 	github.com/Masterminds/semver/v3 v3.1.1
 	github.com/joshuatcasey/libdependency v0.22.0
 	github.com/paketo-buildpacks/packit/v2 v2.6.1
-	golang.org/x/crypto v0.0.0-20221005025214-4161e89ecf1b
+	golang.org/x/crypto v0.11.1-0.20230711161743-2e82bdd1719d
 )
 
 require (
@@ -18,7 +18,7 @@ require (
 	github.com/ProtonMail/go-crypto v0.0.0-20220930113650-c6815a8c17ad // indirect
 	github.com/acomagu/bufpipe v1.0.3 // indirect
 	github.com/anchore/packageurl-go v0.1.1-0.20220428202044-a072fa3cb6d7 // indirect
-	github.com/cloudflare/circl v1.2.0 // indirect
+	github.com/cloudflare/circl v1.6.1 // indirect
 	github.com/dgryski/go-minhash v0.0.0-20190315135803-ad340ca03076 // indirect
 	github.com/ekzhu/minhash-lsh v0.0.0-20190924033628-faac2c6342f8 // indirect
 	github.com/emirpasic/gods v1.18.1 // indirect
@@ -42,11 +42,11 @@ require (
 	github.com/ulikunitz/xz v0.5.10 // indirect
 	github.com/xanzy/ssh-agent v0.3.2 // indirect
 	golang.org/x/exp v0.0.0-20221004215720-b9f4876ce741 // indirect
-	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4 // indirect
-	golang.org/x/net v0.0.0-20221004154528-8021a29435af // indirect
-	golang.org/x/sys v0.0.0-20220928140112-f11e5e49a4ec // indirect
-	golang.org/x/text v0.3.8-0.20211004125949-5bd84dd9b33b // indirect
-	golang.org/x/tools v0.1.12 // indirect
+	golang.org/x/mod v0.8.0 // indirect
+	golang.org/x/net v0.10.0 // indirect
+	golang.org/x/sys v0.10.0 // indirect
+	golang.org/x/text v0.11.0 // indirect
+	golang.org/x/tools v0.6.0 // indirect
 	gonum.org/v1/gonum v0.12.0 // indirect
 	gopkg.in/neurosnap/sentences.v1 v1.0.7 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
