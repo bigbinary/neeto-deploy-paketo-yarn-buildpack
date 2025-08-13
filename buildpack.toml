@@ -30,17 +30,17 @@ api = "0.7"
     version = "1.22.19"
 
   [[metadata.dependencies]]
-    checksum = "sha256:2c15c3d9c15a1ef3f9b7c4c2ec23fe5cee1f8be2553e3d03f6bba3db76b97a20"
+    checksum = "sha256:c8d3eae160a892e32837db3dcae515e843e5383fef52b8141940c8bcf8b6d59f"
     cpe = "cpe:2.3:a:yarnpkg:yarn:4.9.2:*:*:*:*:*:*:*"
     id = "yarn"
     licenses = ["BSD-2-Clause"]
     name = "Yarn"
     purl = "pkg:generic/yarn@4.9.2"
-    source = "https://repo.yarnpkg.com/4.9.2" # placeholder
-    source-checksum = "sha256:2c15c3d9c15a1ef3f9b7c4c2ec23fe5cee1f8be2553e3d03f6bba3db76b97a20" # placeholder
+    source = "https://registry.npmjs.org/yarn/-/yarn-4.9.2.tgz"
+    source-checksum = "sha256:c8d3eae160a892e32837db3dcae515e843e5383fef52b8141940c8bcf8b6d59f"
     stacks = ["io.buildpacks.stacks.bionic", "io.buildpacks.stacks.jammy", "io.buildpacks.stacks.noble", "*"]
     strip-components = 1
-    uri = "https://repo.yarnpkg.com/4.9.2" # placeholder - Yarn 4 is managed via Corepack
+    uri = "https://registry.npmjs.org/yarn/-/yarn-4.9.2.tgz"
     version = "4.9.2"
     
   [[metadata.dependencies]]

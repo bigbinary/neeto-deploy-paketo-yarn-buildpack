@@ -55,6 +55,8 @@ func Build(
         isBerryYarn := false
         if _, statErr := os.Stat(filepath.Join(context.WorkingDir, ".yarnrc.yml")); statErr == nil {
             isBerryYarn = true
+        } else if _, statErr := os.Stat(filepath.Join(context.WorkingDir, ".yarnrc.yaml")); statErr == nil {
+            isBerryYarn = true
         }
 
         // If package.json declares packageManager: "yarn@<ver>", prefer that ONLY for Berry projects
